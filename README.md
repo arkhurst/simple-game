@@ -2,8 +2,8 @@
 simple guessing game w/ react native 
 
 # installation
---  npm install
---  yarn add
+--  npm install,
+--  yarn add, 
 works on both android and iOS
 
 # why this project?
