@@ -2,9 +2,9 @@
 simple guessing game w/ react native 
 
 # installation
---  npm install,
---  yarn add, 
-works on both android and iOS
+* --npm install,
+* --yarn add, 
+* works on both android and iOS
 
 # why this project?
 exposes some of the  most basic syntax used in JS, react native and how components interact with each other
