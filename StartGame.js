@@ -8,10 +8,13 @@ import {
     TouchableWithoutFeedback, 
     Keyboard,
     Alert} from 'react-native';
+
 import Card from './Card';
 import Theme from './Theme';
 import NumberContainer from './NumberContainer';
-export default function StartGame(){ 
+
+
+export default function StartGame(props){ 
 
     const [enteredValue, setEnteredValue] = useState('');
     const [confirmed, setConfirmed] = useState(false);
@@ -52,7 +55,7 @@ export default function StartGame(){
               <NumberContainer>
                   {selectedNum}
               </NumberContainer>
-              <Button title='START GAME' />
+              <Button title='START GAME' onPress={() => props.onStartGame(selectedNum)} />
             </Card>
         ) 
     }
